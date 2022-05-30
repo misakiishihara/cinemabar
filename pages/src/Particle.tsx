@@ -31,8 +31,8 @@ const Particle: React.FC = () => {
         const height = window.outerHeight;
 
         const scene = new Scene()
-        const camera = new PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 1000)
-        camera.position.z = 180
+        const camera = new PerspectiveCamera(100, canvas.clientWidth / canvas.clientHeight, 0.1, 1000)
+        camera.position.z = 240
 
         const renderer = new WebGLRenderer({ canvas: canvas, antialias: true })
         renderer.setClearColor('#1d1d1d')
